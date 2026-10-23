@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#14251b" />
+    <meta
+      name="description"
+      content="A quiet passage into the living forest. A moment beyond the noise."
+    />
+    <title>STILLWILD — Here before us</title>
+    <link rel="stylesheet" href="/fonts.css" />
+  </head>
+  <body>
+    <a class="skip" href="#within">Skip to the forest</a>
+    <header>
+      <a class="brand" href="#top">STILLWILD<span>THE LIVING WORLD</span></a
+      ><button class="sound" aria-pressed="false">
+        <i aria-hidden="true"></i><span>Sound off</span>
+      </button>
+    </header>
+    <main id="top">
+      <section class="hero scene">
+        <img
+          class="image"
+          src="./media/hero.jpg"
+          alt="An immense canopy of green forest"
+          fetchpriority="high"
+        /><video
+          class="hero-film"
+          muted
+          loop
+          playsinline
+          preload="none"
+          poster="./media/hero.jpg"
+          aria-hidden="true"
+        ></video>
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">A MOMENT BEYOND THE NOISE</p>
+          <h1>Some things<br />are bigger<br /><em>than us.</em></h1>
+        </div>
+        <div class="hero-bottom">
+          <span>AN IMMERSION IN STILLNESS</span
+          ><a href="#within" class="descend"
+            >Enter the quiet <span aria-hidden="true">↓</span></a
+          ><span>01 — ABOVE</span>
+        </div>
+      </section>
+      <section class="threshold" id="within">
+        <p class="eyebrow">LEAVE THE NOISE BEHIND</p>
+        <h2>There is a world<br />that asks for<br /><em>nothing.</em></h2>
+        <span class="vertical-rule" aria-hidden="true"></span>
+        <p class="small-note">Only your presence.</p>
+      </section>
+      <section class="interior scene">
+        <img
+          class="image"
+          src="./media/interior.jpg"
+          alt="Tall trees in a deep green forest"
+          loading="lazy"
+        />
+        <div class="scene-shade"></div>
+        <div class="interior-copy">
+          <p class="eyebrow">02 — WITHIN</p>
+          <h2>Here<br /><em>before us.</em></h2>
+        </div>
+        <span class="scene-foot">A DIFFERENT SENSE OF TIME</span>
+      </section>
+      <section class="pause">
+        <span class="orbit" aria-hidden="true"></span>
+        <p>No hurry.<br />No need to be anywhere else.</p>
+        <span class="eyebrow">KEEP A LITTLE OF THIS WITH YOU</span>
+      </section>
+      <section class="sanctuary scene" id="stay">
+        <img
+          class="image"
+          src="./media/light.jpg"
+          alt="Warm sunlight falling through an open forest"
+          loading="lazy"
+        />
+        <div class="scene-shade"></div>
+        <div class="rays" aria-hidden="true"></div>
+        <div class="sanctuary-copy">
+          <p class="eyebrow">03 — HERE</p>
+          <h2>Just<br /><em>be.</em></h2>
+          <p>The world can wait.</p>
+        </div>
+        <footer>
+          <span>STILLWILD</span><a href="#top">Begin again ↗</a
+          ><a href="./credits.html">Image & sound credits</a>
+        </footer>
+      </section>
+    </main>
+    <div class="journey" aria-hidden="true"><span></span></div>
+    <button class="motion-control" id="motion" aria-pressed="false">
+      Pause motion
+    </button>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
